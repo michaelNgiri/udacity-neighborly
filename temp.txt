@@ -1,0 +1,9 @@
+connection string:
+mongodb://neighbourly-cosmos:bYdVEqY7pn1q7dFcKj1JEmi1Wl47mqkY0OPxgi0FYrmu3dEV2vrfxyjabRwL6XlwnZPmbgdZgvJO2hKK1x6LAA==@neighbourly-cosmos.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&maxIdleTimeMS=120000&appName=@neighbourly-cosmos@
+
+db primary connection string:
+mongodb://7f57b8a3-0ee0-4-231-b9ee:gAl0s2wivYWPFdaQLasKNMWwqdQKx6EGyoCwxf0iGYgkZywwNDe5qGifFDgujmiZiWuXZxyiPF7hILInzXPajQ==@7f57b8a3-0ee0-4-231-b9ee.documents.azure.com:10255/?ssl=true&replicaSet=globaldb
+
+
+
+AzCopy /Source:C:\myfolder\ /Dest:https://myaccount.table.cosmosdb.windows.net/mytable1/ /DestKey:key /Manifest:"myaccount_mytable_20140103T112020.manifest" /EntityOperation:InsertOrReplace

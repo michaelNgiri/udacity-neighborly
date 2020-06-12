@@ -1,0 +1,5 @@
+link to backend deployment:
+https://michael-neighborly-function-app.azurewebsites.net/
+
+frontend link:
+https://michael-neighbourly-frontend.azurewebsites.net/
